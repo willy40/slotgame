@@ -11,10 +11,10 @@ public class WinLinesMatcher implements IWinLinesMatcher {
     private List<boolean[]> winMatrixList = null;
     private final List<MatchingSlot> matchList = new ArrayList<>();
     
-    //TODO
     /*
         Win Lines Matrix
-        This can be readed from json and stored somewhere
+        This can be readed from json or stored on external
+        server and loaded dynamically
     */
 
     private final boolean[][] winLines = {
